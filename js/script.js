@@ -63,9 +63,9 @@ const rollDice = random => {
     }, 4050);
 
 }
-rollBtn1.addEventListener('click', () => callDice(1));
-rollBtn2.addEventListener('click', () => callDice(2));
-rollBtn3.addEventListener('click', () => callDice(3));
-rollBtn4.addEventListener('click', () => callDice(4));
-rollBtn5.addEventListener('click', () => callDice(5));
-rollBtn6.addEventListener('click', () => callDice(6));
+rollBtn1.addEventListener('click', () => rollDice(1));
+rollBtn2.addEventListener('click', () => rollDice(2));
+rollBtn3.addEventListener('click', () => rollDice(3));
+rollBtn4.addEventListener('click', () => rollDice(4));
+rollBtn5.addEventListener('click', () => rollDice(5));
+rollBtn6.addEventListener('click', () => rollDice(6));
