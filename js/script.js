@@ -1,6 +1,16 @@
 const dice = document.querySelector('.dice');
 const rollBtn = document.querySelector('.roll');
 
+
+const rollBtn1 = document.querySelector('#roll_1');
+const rollBtn2 = document.querySelector('#roll_2');
+const rollBtn3 = document.querySelector('#roll_3');
+const rollBtn4 = document.querySelector('#roll_4');
+const rollBtn5 = document.querySelector('#roll_5');
+const rollBtn6 = document.querySelector('#roll_6');
+
+
+
 const randomDice = () => {
 
     const random = Math.floor(Math.random() * 10);
@@ -53,5 +63,9 @@ const rollDice = random => {
     }, 4050);
 
 }
-
-rollBtn.addEventListener('click', randomDice);
+rollBtn1.addEventListener('click', () => callDice(1));
+rollBtn2.addEventListener('click', () => callDice(2));
+rollBtn3.addEventListener('click', () => callDice(3));
+rollBtn4.addEventListener('click', () => callDice(4));
+rollBtn5.addEventListener('click', () => callDice(5));
+rollBtn6.addEventListener('click', () => callDice(6));
