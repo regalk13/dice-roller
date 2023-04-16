@@ -49,9 +49,7 @@ body {
     border-radius: 10px;
     border: 5px solid #f6f3f0;
     transform-style: preserve-3d;
-    background: linear-gradient(
-        145deg, #2a2826, #2a2826
-    );
+    background: linear-gradient(145deg, #2a2826, #2a2826);
 }
 
 .face::before {
@@ -100,44 +98,35 @@ body {
 }
 
 .front::after {
-    width: 30px ;
-    height: 30px ;
-    margin: -15px 0 0 -15px ;
+    width: 30px;
+    height: 30px;
+    margin: -15px 0 0 -15px;
 }
 
 .back::after {
-    margin: -35px 0 0 -30px ;
-    box-shadow: 40px 0 #fff,
-                0 25px #fff,
-                40px 25px #fff,
-                0 50px #fff,
-                40px 50px #fff;
+    margin: -35px 0 0 -30px;
+    box-shadow: 40px 0 #fff, 0 25px #fff, 40px 25px #fff, 0 50px #fff,
+        40px 50px #fff;
 }
 
 .top::after {
-    margin: -30px 0 0 -30px ;
+    margin: -30px 0 0 -30px;
     box-shadow: 40px 40px #fff;
 }
 
 .bottom::after {
-    margin: -36px 0 0 -36px ;
-    box-shadow: 26px 26px #fff,
-                52px 52px #fff,
-                52px 0 #fff,
-                0 52px #fff;
+    margin: -36px 0 0 -36px;
+    box-shadow: 26px 26px #fff, 52px 52px #fff, 52px 0 #fff, 0 52px #fff;
 }
 
 .right::after {
     margin: -30px 0 0 -30px;
-    box-shadow: 40px 0 #fff,
-    0 40px #fff,
-    40px 40px #fff;
+    box-shadow: 40px 0 #fff, 0 40px #fff, 40px 40px #fff;
 }
 
 .left::after {
     margin: -35px 0 0 -35px;
-    box-shadow: 25px 25px #fff,
-                50px 50px #fff;
+    box-shadow: 25px 25px #fff, 50px 50px #fff;
 }
 
 /*
@@ -152,7 +141,7 @@ body {
     border-radius: 3px;
     font: 700 16px 'Montserrat';
     border: 2px solid #b33951;
-    transition: .4s;
+    transition: 0.4s;
 }
 
 .roll:hover {
